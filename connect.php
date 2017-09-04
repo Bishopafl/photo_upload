@@ -21,7 +21,9 @@ session_start();
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- styles -->
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles/styles.css">
+
+	<link rel="stylesheet" href="styles/font-awesome.min.css">
 
 </head>
 <body>
@@ -57,18 +59,18 @@ session_start();
 			<div class="description-text">
 				<div class="buttons">
 					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-primary navbar-inverse" data-toggle="modal" data-target="#about-the-cards">
+					<div class="btn btn-primary navbar-inverse btn-contain" data-toggle="modal" data-target="#about-the-cards">
 						About The Cards
-					</button>
+					</div>
 
-					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#about-the-creator">
+					<div class="btn btn-info btn-contain" data-toggle="modal" data-target="#about-the-creator">
 						About The Creator
-					</button>
+					</div>
 
 					
-					<button type="" class="btn btn-primary" onClick="window.location.reload()" id="select-card">
+					<div class="btn btn-primary btn-contain" onClick="window.location.reload()" id="select-card">
 						Select Another Card
-					</button>
+					</div>
 				</div>
 
 				<!-- CARDS MODAL -->
